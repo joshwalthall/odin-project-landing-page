@@ -1,7 +1,37 @@
-.header-container {
+body {
+    margin: 0;
     display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    font-family: Roboto, Verdana, sans-serif;
+    padding: 0;
+    height: 200px;
+}
+
+.header-logo,
+.header-links-container {
+    margin-top: 24px;
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
+    padding-left: 200px;
 }
 
 .header-links-container {
     display: flex;
+    gap: 24px;
+    padding-right: 200px;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
 }
