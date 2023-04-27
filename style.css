@@ -112,7 +112,7 @@ body {
 
 .quote-container {
     background-color: #E5E7EB;
-    padding: 150px 0px 150px 0px;
+    padding: 125px 0px 125px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,8 +122,8 @@ body {
     width: 800px;
     align-self: center;
     color: #1F2937;
+    font-family: 'Roboto Light', Verdana, sans-serif;
     font-size: 36px;
-    font-weight: lighter;
     font-style: italic;
 }
 
@@ -133,4 +133,38 @@ body {
     font-weight: 700;
     color: #1F2937;
     text-align: right;
+}
+
+.action-container {
+    background-color: #3882F6;
+    width: 850px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 100px 0px 100px 0px;
+    padding: 24px 120px 24px 120px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-title {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 35px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
 }
