@@ -5,11 +5,19 @@ body {
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
-.header-container {
+.header-background {
     background-color: #1F2937;
     display: flex;
-    padding: 0;
+    justify-content: center;
+}
+
+.header-container {
+    background-color: #1F2937;
+    width: 1000px;
     height: 200px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo,
@@ -21,14 +29,11 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
-    margin-right: auto;
-    padding-left: 200px;
 }
 
 .header-links-container {
     display: flex;
     gap: 24px;
-    padding-right: 200px;
 }
 
 .header-link,
@@ -41,7 +46,8 @@ body {
     background-color: #1F2937;
     padding: 0px 200px 130px 200px;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+    justify-content: center;
 }
 
 .hero-left {
