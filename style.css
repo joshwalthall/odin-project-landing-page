@@ -14,18 +14,13 @@ body {
 .header-container {
     background-color: #1F2937;
     width: 1000px;
-    height: 200px;
     flex: 0 1 auto;
     display: flex;
+    margin: 24px 0px 100px 0px;
     justify-content: space-between;
 }
 
-.header-logo,
-.header-links-container {
-    margin-top: 24px;
-}
-
-.header-logo{
+.header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
@@ -36,6 +31,10 @@ body {
     gap: 24px;
 }
 
+.header-link {
+    text-decoration: none;
+}
+
 .header-link,
 .hero-text {
     color: #E5E7EB;
@@ -44,7 +43,7 @@ body {
 
 .hero-container {
     background-color: #1F2937;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     display: flex;
     gap: 50px;
     justify-content: center;
