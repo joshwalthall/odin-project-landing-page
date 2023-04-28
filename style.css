@@ -5,6 +5,15 @@ body {
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
+button {
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
 .header-background {
     background-color: #1F2937;
     display: flex;
